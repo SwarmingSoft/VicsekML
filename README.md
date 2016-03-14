@@ -4,7 +4,7 @@ tested with gcc version 4.9.2 (x86_64-win32-seh-rev2, Built by MinGW-W64 project
 compiled with "-std=c++11", "-D_USE_MATH_DEFINES", "-DNDEBUG"  
 tested with "-fexpensive-optimizations", "-O2", "-march=native"   
 on Windows 7 e.g. `g++.exe -std=c++11  -fexpensive-optimizations -O2 -march=native -DNDEBUG -IC:\voro++-0.4.6\src -IC:\eigen-eigen-10219c95fe65 -IC:\dlib-18.16  -c entropy.cpp -o entropy.o`  
-`g++.exe -std=c++11  -fexpensive-optimizations -O2 -march=native -DNDEBUG  -IC:\voro++-0.4.6\src -IC:\eigen-eigen-10219c95fe65 -IC:\dlib-18.16  -c EMyMatrix.cpp -o MyMatrix.o`  
+`g++.exe -std=c++11  -fexpensive-optimizations -O2 -march=native -DNDEBUG  -IC:\voro++-0.4.6\src -IC:\eigen-eigen-10219c95fe65 -IC:\dlib-18.16  -c MyMatrix.cpp -o MyMatrix.o`  
 `g++.exe  -o EntropyVicsek.exe constants.o entropy.o MyMatrix.o tests.o C:\libVoro++.a`  
 
 
