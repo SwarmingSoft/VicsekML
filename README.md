@@ -1,4 +1,4 @@
-# Vicsek Maximum likelihhod estimation
+# Vicsek Maximum likelihood estimation
 
 tested with gcc version 4.9.2 (x86_64-win32-seh-rev2, Built by MinGW-W64 project)   
 compiled with "-std=c++11", "-D_USE_MATH_DEFINES", "-DNDEBUG"  
